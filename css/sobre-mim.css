@@ -1,5 +1,4 @@
-.sobre-mim{
-    
+.sobre-mim{  
     max-width: 1200px;  
     width: 100%;
     display: grid;
@@ -10,20 +9,51 @@
     grid-template-columns: 1fr 1fr;
     gap: 64px;
 }
-.section-title{
-    grid-area: title;
-    font-size: 220px;
-    text-align: center;
-    background-image: linear-gradient(#555, #000);
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
-}
+
 .description{
     grid-area: description;
-    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.description__title{
+    font-size: 48px;
+    color: var(--primary-color);
+}
+.description__text{
+    font-size: 1.5rem;
+    width: 85%;
+    line-height: 150%;
 }
 .skills{
     grid-area: skills;
-    background-color: plum;
+    display: flex;
+    flex-direction: column;
+
+}
+.skills__title{
+    font-size: 48px;
+    color: var(--primary-color);
+}
+.skills__container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+.skills__icon{
+    width: 150px;
+    height: 150px;
+    background-color: var(--icon-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+.skills__icon i{
+    font-size: 4rem;
+}
+.skills__icon span{
+    font-weight: 700;
+    font-size: 2rem;
 }

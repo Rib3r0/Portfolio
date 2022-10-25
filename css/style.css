@@ -38,16 +38,22 @@ section{
 }
 
 
-.projetos{
-    background-color: lightpink;
-}
-.contatos{
-    background-color: lightseagreen;
-}
 footer{
     grid-area: content;
     place-self: end center;
-    height: 100px;
+    height: 90px;
     width: 100%;
-    background: #0005;
+    display: grid;
+    place-content: center;
+    border-top: 2px solid #fff;
+    font-size: 0.9rem;
+    font-style: italic;
+}
+/* TABLET */
+@media (max-width:960px){
+
+}
+/* MOBILE */
+@media(max-width:640px){
+
 }
