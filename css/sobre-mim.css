@@ -57,3 +57,26 @@
     font-weight: 700;
     font-size: 2rem;
 }
+
+@media(max-width:960px){
+    .sobre-mim{  
+
+        grid-template-areas:
+            "title title"
+            "description description" 
+            "skills skills";
+            gap: 0;
+
+    }
+    .description{
+        padding: 50px;
+    }
+    .skills{
+        padding: 50px;
+    }
+    .skills__container{
+        gap: 26px;
+        display: flex;
+        justify-content: space-between;
+    }
+}

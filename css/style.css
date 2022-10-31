@@ -50,7 +50,20 @@ footer{
     font-style: italic;
 }
 /* TABLET */
-@media (max-width:960px){
+@media(max-width:960px){
+
+header{
+    margin-top: 0px;
+    padding: 48px;
+}
+
+.profile{
+    flex-direction: column;
+    text-align: center;
+
+}
+
+
 
 }
 /* MOBILE */

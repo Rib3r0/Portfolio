@@ -57,3 +57,22 @@
     text-align: right;
     font-size: 1.2rem;
 }
+
+@media(max-width:960px){
+    .contato{
+        grid-template-areas: 
+        "title title"
+        "contato  link"
+        "social social";
+        grid-template-rows: 200px 400px 50px;
+        grid-template-columns: 1fr 1fr;
+        
+    }
+    .contato-container{
+        padding-left: 94px;
+    }
+    .link-container{
+        padding-right: 94px;
+    }
+
+}
