@@ -11,6 +11,10 @@
 @media(max-width:960px){
 .section-title{
     font-size: 140px;
-    
 }
+}
+@media(max-width:640px){
+    .section-title{
+        font-size: 60px;
+    }
 }

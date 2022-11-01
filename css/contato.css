@@ -76,3 +76,30 @@
     }
 
 }
+@media(max-width:640px){
+    .contato{
+        grid-template-areas: 
+        "title title"
+        "contato contato"
+        "social social"
+        "link link";
+        grid-template-rows: 100px 200px 300px 250px;
+        grid-template-columns: 1fr 1fr;
+        height: 940px;    
+    }
+    .contato-container{
+        place-items: center;
+        padding-left: 0px;
+    }
+    .social-container{
+        flex-direction: column;
+        place-items: center;
+    }
+    .link-container{
+        padding-right: 0px;
+        place-items: center;
+    }
+    .link{
+        place-items: center;
+    }
+}

@@ -13,3 +13,14 @@
     color: var(--primary-color);
     font-weight: 700;
 }
+@media(max-width:640px){
+.logo{
+    
+}
+.logo::before{
+    
+}
+.logo::after{
+    
+}
+}

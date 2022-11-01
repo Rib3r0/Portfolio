@@ -65,8 +65,16 @@ header{
 
 
 
+
 }
 /* MOBILE */
 @media(max-width:640px){
+header{
+    justify-content: space-around;
+}
+footer{
+    height: 30px;
+    font-size: 0.5rem;
+}
 
 }

@@ -39,7 +39,7 @@
 
 @media(max-width:960px){
 .projetos{
-    height: 300vh;
+    height: 3000px;
 }
 .card-container{
     flex-direction: column;
@@ -49,4 +49,16 @@
 .card img{
     height: 420px;
 }
+}
+@media(max-width:640px){
+.projetos{
+    height: 1500px;
+}
+.card img{
+    height: 180px;
+}
+.projetos{
+    gap: 16px;   
+}
+
 }

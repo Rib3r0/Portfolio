@@ -30,3 +30,22 @@
     font-size: 4rem;
     color: var(--primary-color);
 }
+@media(max-width:640px){
+    .profile__text{
+        font-size: 1.5rem;
+    }
+    .profile__name{
+        font-size: 3rem;
+    }
+    .profile{
+        place-self: end;
+        gap: 0px;
+        padding-bottom: 20px;
+    }
+
+    .profile div{
+        
+        
+    }
+    
+}

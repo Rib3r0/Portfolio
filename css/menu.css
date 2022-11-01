@@ -11,3 +11,22 @@
 .menu li:hover{
     border-color: var(--primary-color);
 }
+.bars{
+    display: none;
+}
+
+@media(max-width:960px){
+    .menu{
+        display: none; 
+    }
+    .bars{
+        display: block;
+        font-size: 2rem;
+    }
+}
+@media(max-width:640px){
+    .menu{
+        gap: 1px;
+    }
+
+}
